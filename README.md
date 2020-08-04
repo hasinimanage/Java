@@ -1,2 +1,2 @@
 # Java
-here are the example codes of basic java concepts
+here are the example codes of basic javaScript concepts
