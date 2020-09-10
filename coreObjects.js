@@ -25,3 +25,8 @@ var person = []; //empty array
 person["name"] = "John";
 person["age"] = 46;
 document.write(person["age"]); //Outputs "46"
+
+//**using math object */
+var n = prompt("Enter a number", "");
+var answer = Math.sqrt(n);
+alert("The square root of " + n + " is " + answer);
