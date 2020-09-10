@@ -30,3 +30,9 @@ document.write(person["age"]); //Outputs "46"
 var n = prompt("Enter a number", "");
 var answer = Math.sqrt(n);
 alert("The square root of " + n + " is " + answer);
+
+//**set interval */
+function myAlert() {
+    alert("Hi");
+ }
+ setInterval(myAlert, 3000);
