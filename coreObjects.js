@@ -19,3 +19,9 @@ document.write(courses.length); //Outputs 3
 var c1 = ["HTML", "CSS"];
 var c2 = ["JS", "C++"];
 var courses = c1.concat(c2);
+
+//**associative arrays */
+var person = []; //empty array
+person["name"] = "John";
+person["age"] = 46;
+document.write(person["age"]); //Outputs "46"
