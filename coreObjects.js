@@ -10,3 +10,7 @@ courses[0] = "HTML";
 courses[1] = "CSS";
 courses[2] = "JS";
 courses[3] = "C++";
+
+//**length of array */
+var courses = ["HTML", "CSS", "JS"];
+document.write(courses.length); //Outputs 3
