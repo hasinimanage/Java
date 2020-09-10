@@ -14,3 +14,8 @@ courses[3] = "C++";
 //**length of array */
 var courses = ["HTML", "CSS", "JS"];
 document.write(courses.length); //Outputs 3
+
+//**combining arrays */
+var c1 = ["HTML", "CSS"];
+var c2 = ["JS", "C++"];
+var courses = c1.concat(c2);
