@@ -38,3 +38,16 @@ function person(name, age) {
   
   var p = new person("David", 21);
   p.changeName("John");  //Now p.name equals to "John"
+
+//** methods */
+function person(name, age) {
+    this.name= name;  
+    this.age = age;
+    this.yearOfBirth = bornYear;
+  }
+  function bornYear() {
+    return 2016 - this.age;
+  }
+  
+  var p = new person("A", 22);
+  document.write(p.yearOfBirth())  // Outputs 1994
