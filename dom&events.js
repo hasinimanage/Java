@@ -39,3 +39,15 @@
   //adding the paragraph to the div
   div.appendChild(p);
 </script> // This creates a new paragraph and adds it to the existing div element on the page.
+
+//** removing elements */
+<div id="demo">
+  <p id="p1">This is a paragraph.</p>
+  <p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+var parent = document.getElementById("demo");
+var child = document.getElementById("p1");
+parent.removeChild(child);
+</script> //This removes the paragraph with id="p1" from the page.
